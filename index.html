@@ -12,8 +12,22 @@
     <p>This game will test your knowledge on Javascript and general html code, you will have 60 seconds and will lose time if you get a question wrong </p>
 </header>
 <body>
-    <button class="start-button" type="button">Start!</button>
-    <h2 class="timer-count">60</h2>
-    <script src="assets\script.js"></script>
+    <div class="controls">
+        <button id="start-button" class="start-button">Start</button>
+    </div>
+    <h2 style="text-align: center;">Scores</h2>
+    <h2 class="time" style="text-align:center;">60</h2>
+    <div class="container">
+        <div id="question-box" class="hide">
+            <div id="questions" style="text-align: center; font-size: 25px;">Question</div>
+            <div id="answer-buttons" class="button-grid">
+                <button class="button">answer1</button>
+                <button class="button">answer2</button>
+                <button class="button">answer3</button>
+                <button class="button">answer4</button>
+            </div>
+        </div> 
+    </div>
+   <script src="assets\script.js"></script>
 </body>
 </html>

@@ -21,4 +21,11 @@ button {
     background-color: #BABABA;
     cursor: pointer;
   }
-  
+
+
+.btn-grid {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 22%;
+}
